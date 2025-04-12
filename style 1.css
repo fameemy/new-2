@@ -1,0 +1,94 @@
+{
+    margin=0;
+    padding=0;
+}
+.border{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.FSAA{
+width: 1200px;
+height: 75px;
+margin: auto;
+padding-bottom: 4px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    float: top;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: inline-start;
+    padding-left: 400px;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: all.4s ease;
+}
+ul li a:hover{
+    padding-top: 100px;
+    color: whitesmoke;
+}
+
+.discrption h1 {
+    font-family: Arial ; 
+    padding-left: auto;
+    padding-right: auto;
+    text-align:center;;
+    color : blue;
+    padding-top:auto;
+    padding-bottom: auto;
+}
+.discrption p{
+    font-weight: bold;
+    padding-right:50px;
+    padding-left:50px;
+    
+}
+
+.discrption p{
+    color : black;
+}
+.background{
+    background-color: gainsboro;
+    background-position: center;
+    background-size: cover;
+    height: 129vh;
+    width: 100%;
+}
+}
+.discrption p{
+    text-align : justify;
+}
+.discrption{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: inline-table;
+}

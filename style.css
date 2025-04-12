@@ -1,0 +1,72 @@
+{
+    margin=0;
+    padding=0;
+}
+.background{
+    width: 100%;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.border{
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.FSAA{
+width: 1200px;
+height: 75px;
+margin: auto;
+padding-bottom: 4px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 33px;
+    font-family: Arial;
+    float: top;
+    float: left;
+}
+.menu{
+    width: 400px;
+    float: inline-start;
+    padding-left: 400px;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: red;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: whitesmoke;
+}
+.form{
+    text-align: center;
+}
+.form h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.form p{
+    font-weight: bold;
+}
